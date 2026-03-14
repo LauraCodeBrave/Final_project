@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constellation</title>
+    <link href="constellation1.css" rel="stylesheet">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+
+</head>
+<body>
+<div class="the_nav">
+        <nav class="navbar">
+            <a href="index.html" id="nav1">Home</a>
+            <a href="Read.html" id="nav1">Reading</a>
+            <a href="writing.html" id="nav1">writing</a>
+            <a href="constellation.html" id="nav1">Constellation</a>
+        </nav>
+        
+        <div id="font-picker-container">
+        <label for="fontPicker">Pick a font:</label>
+        <select id="fontPicker">
+            <option value="'Lobster Two', cursive">Lobster Two</option>
+            <option value="'Georgia', serif">Georgia</option>
+            <option value="'Times New Roman', serif">Times New Roman</option>
+            <option value="'Courier New', monospace">Courier New</option>
+            <option value="'Playfair Display', serif">Playfair Display</option>
+        </select>
+        </div>
+  </div>
+
+    <header class="head">
+
+    </header>
+
+    <div id="constellationPage">
+  <canvas id="constellationCanvas"></canvas>
+
+ 
+  <div id="starPopup" class="hidden">
+    <div class="popupContent">
+      <span id="closePopup">&times;</span>
+      <h2 id="popupTitle"></h2>
+      <p id="popupContent"></p>
+    </div>
+  </div>
+</div>
+
+
+ <footer class="footer">
+  <div class="star-bg">
+    <!-- Stars -->
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>
+
+  <div class="footer-content">
+    <p>© 2026 Your Website. All rights reserved.</p>
+    
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="writing.html">write</a>
+      <a href="Read.html">read</a>
+      <a href="constellation.html">constellation</a>
+    </div>
+  </div>
+</footer>
+    <script src="constellation2.js"></script>
+</body>
+</html>

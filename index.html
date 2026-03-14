@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkstellation</title>
+
+    <!--links-->
+  <link rel="stylesheet" href="style.css"/>
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  </style>
+
+</head>
+<body>
+    <div class="the_nav">
+        <nav class="navbar">
+            <a href="index.html" id="nav1">Home</a>
+            <a href="Read.html" id="nav1">Reading</a>
+            <a href="writing.html" id="nav1">writing</a>
+            <a href="constellation.html" id="nav1">Constellation</a>
+        </nav>
+        
+        <div id="font-picker-container">
+        <label for="fontPicker">Pick a font:</label>
+        <select id="fontPicker">
+            <option value="'Lobster Two', cursive">Lobster Two</option>
+            <option value="'Georgia', serif">Georgia</option>
+            <option value="'Times New Roman', serif">Times New Roman</option>
+            <option value="'Courier New', monospace">Courier New</option>
+            <option value="'Playfair Display', serif">Playfair Display</option>
+        </select>
+        </div>
+  </div>
+
+  <header class="head">
+
+  </header>
+ 
+  
+     <section class="poem-section">
+  <div class="envelope-container" onclick="openEnvelope()">
+    
+    <div class="envelope" id="envelope">
+      <div class="flap"></div>
+      <div class="letter" id="letter">
+        <h3>Poem of the Day</h3>
+        <p id="poem-text"></p>
+      </div>
+    </div>
+
+  </div>
+</section> 
+
+<section class="the_cards">
+   
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book1.jpg">
+    <br>
+    <div class="card-body">
+    <p class="card-text">In the poem, the prisoner reflects on his situation and the emotional struggle of being trapped, both physically and mentally. Miller uses the prisoner’s thoughts to show how hope, memory, and imagination can help a person endure difficult circumstances.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div  style="width: 202px; height:200px;">
+    <img src="book2.avif" >
+    <div class="card-body">
+    <p class="card-text">a gentle collection of poems that explore emotions, nature, and the quiet moments of everyday life. Through simple but meaningful language, the poems invite readers to slow down and think about their own experiences and dreams.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div style="width: 202px; height:200px;"> 
+    <img src="book3.jpg" >
+    <div class="card-body">
+    <p class="card-text">A Conspiracy of Friendliness by Alexander McCall Smith is a light-hearted novel set in the London apartment building Corduroy Mansions. The story follows the lives of several residents whose everyday problems, friendships, and misunderstandings become intertwined.</p>
+    </div>
+    </div>
+    </div> 
+
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book4.jpg" >
+    <div class="card-body">
+    <p class="card-text">As the Tide Rises is a coming-of-age story about a young girl who spends the summer in a coastal town while dealing with family struggles and personal change.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book5.jpg">
+    <div class="card-body">
+    <p class="card-text">When the Waves Come is a story that explores how people face change, uncertainty, and emotional challenges. Set around the power and symbolism of the ocean</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book6.webp">
+    <div class="card-body">
+    <p class="card-text">In the Field of Ifs by Alexandra Fuller is a memoir that reflects on the author’s life and the many “what if” moments that shape a person’s choices and identity.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards"> 
+    <div style="width: 202px; height:200px;">
+    <img src="book7.png">
+    <div class="card-body">
+    <p class="card-text">Out of the Weeds is a reflective story about overcoming difficulties and finding a clearer path in life.The book follows a character who feels stuck in confusion, problems</p>
+    </div>
+    </div>
+    </div>
+     
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book8.jpg">
+    <div class="card-body">
+    <p class="card-text">The Godlike Things is a reflective novel about human ambition and the desire to achieve greatness. The story explores how people sometimes try to control their lives and the world around them in ways that seem almost “godlike.”</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div style="width: 202px; height:200px;">
+    <img src="book9.avif">
+    <div class="card-body">
+    <p class="card-text">Love Story is a romantic novel about the relationship between Oliver Barrett, a wealthy Harvard student, and Jenny Cavilleri, a strong-willed music student from a modest background.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cards">
+    <div style="width: 202px; height:400px;">
+    <img src="book10.webp">
+    <div class="card-body">
+    <p class="card-text">Poetry is a form of literature that uses carefully chosen words, rhythm, and imagery to express emotions, ideas, and experiences. Unlike regular writing, poetry often focuses on the beauty and sound of language, using techniques such as rhyme, repetition, and metaphor.</p>
+    </div>
+    </div>
+    </div>
+
+ </section>
+
+ <h1 style="text-align: center; margin-top: 20px; margin-bottom: 0; background-color:#EABDE6;">Famous poetry writers</h1>
+
+ <section class="authors">
+     
+      <div class="author">
+        <img src="https://cdn-test.poetryfoundation.org/cdn-cgi/image/w=2292,h=1528,q=80/content/images/653f5eeafab7a9895af1eca68e97459c831812c6.jpeg">
+        <a href="https://poets.org/poet/william-shakespeare">William (S)</a>
+      </div>
+
+      <div class="author">
+        <img src="https://www.thoughtco.com/thmb/W5UQHhAdpXX1xfAU75BEMAqCHes=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-168966598-730af106512b408aa1207cef7cd8e763.jpg">
+        <a href="https://poets.org/poet/john-keats">John Keats</a>
+      </div>
+
+      <div class="author">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Emily_Dickinson_daguerreotype_%28Restored%2C_cropped%2C_blown_up%2C_sepia%29.jpg/250px-Emily_Dickinson_daguerreotype_%28Restored%2C_cropped%2C_blown_up%2C_sepia%29.jpg">
+        <a href="https://poets.org/poet/emily-dickinson">Emily Dickinson</a>
+      </div>
+
+      <div class="author">
+        <img src="https://m.media-amazon.com/images/M/MV5BOWVlYzQzYzktZTYyOS00MTQyLWJjMTgtNTU5MjEwNTQwZmNiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        <a href="https://poets.org/poet/t-s-eliot">T.S. Eliot</a>
+      </div>
+
+      <div class="author">
+        <img src="https://cdn.britannica.com/41/9841-004-C88D0C92/Pablo-Neruda.jpg">
+        <a href="https://poets.org/poet/pablo-neruda">Pablo Neruda</a>
+      </div>
+
+      <div class="author">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTU1YzFhMjUtM2E0NC00YzhhLTllMTUtZTY2OWU3MzJjNzBiXkEyXkFqcGc@._V1_.jpg">
+        <a href="https://poets.org/poet/sylvia-plath">Sylvia Plath</a>
+      </div>
+
+      <div class="author">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Robert_Frost%2C_1910s.jpg/250px-Robert_Frost%2C_1910s.jpg">
+        <a href="https://poets.org/poet/robert-frost">Robert Frost</a>
+      </div>
+
+      <div class="author">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzZHfQIXqxIf5Z2Qx2KIgaE-4FB4TzvIeBQ&s">
+        <a href="https://poets.org/poet/maya-angelou">Maya Angelou</a>
+      </div>
+
+      <div class="author">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTusLghoxmg5XHeoxqaJfR12V4y3Rnwt3jn2g&s">
+        <a href="https://poets.org/poet/w-b-yeats">William (B)</a>
+      </div>
+
+      <div class="author">
+        <img src="https://www.europassitalian.com/wp-content/uploads/2020/06/thumbnail_large-1-5.jpg">
+        <a href="https://poets.org/poet/dante-alighieri">Dante Alighieri</a>
+      </div>
+
+      <div class="author">
+        <img src="https://cdn.britannica.com/67/195567-050-B679E84C/John-Milton-engraving-Jacob-Houbraken-1741.jpg">
+        <a href="https://www.britannica.com/biography/John-Milton">John Milton</a>
+      </div>
+
+      <div class="author">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/walt-whitman-gettyimages-181477993.jpg?crop=1xw:1.0xh;center,top&resize=640:*">
+        <a href="https://poets.org/poet/walt-whitman">Walt Whitman</a>
+      </div>
+
+      <div class="author">
+        <img src="https://englishverse.com/images/poets/william_wordsworth.jpg">
+        <a href="https://poets.org/poet/william-wordsworth">William (W)</a>
+      </div>
+
+      <div class="author">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-poet-author-playwright-and-harlem-renaissance-news-photo-1705592607.jpg?crop=1xw:0.52368xh;center,top&resize=1200:*">
+        <a href="https://poets.org/poet/langston-hughes">Langston Hughes</a>
+      </div>
+
+ </section>
+
+ <footer class="footer">
+  <div class="star-bg">
+    <!-- Stars -->
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>
+
+  <div class="footer-content">
+    <p>© 2026 Your Website. All rights reserved.</p>
+    
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="writing.html">write</a>
+      <a href="Read.html">read</a>
+      <a href="constellation.html">constellation</a>
+    </div>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
